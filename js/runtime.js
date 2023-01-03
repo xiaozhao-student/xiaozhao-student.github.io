@@ -19,8 +19,8 @@ function createtime() {
   let c = "";
   (c =
     s < 18 && s >= 9
-      ? `<img class='boardsign' src='https://cdn.staticaly.com/gh/xiaozhao-student/picture_bed@main/imgs/colin'shome 摸鱼中.svg' title='努力奋斗打工人！'><br> <div style="font-size:13px;font-weight:bold">本站居然已运行 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 </div>`
-      : `<img class='boardsign' src='https://cdn.staticaly.com/gh/xiaozhao-student/picture_bed@main/imgs/colin'shome 睡觉中.svg' title='闲着没事就瞎搞～'><br> <div style="font-size:13px;font-weight:bold">本站居然已运行 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 </div>`),
+      ? `<img class='boardsign' src='https://cdn.staticaly.com/gh/xiaozhao-student/picture_bed@main/imgs/摸鱼中.svg' title='努力奋斗打工人！'><br> <div style="font-size:13px;font-weight:bold">本站居然已运行 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 </div>`
+      : `<img class='boardsign' src='https://cdn.staticaly.com/gh/xiaozhao-student/picture_bed@main/imgs/睡觉中.svg' title='闲着没事就瞎搞～'><br> <div style="font-size:13px;font-weight:bold">本站居然已运行 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 </div>`),
     document.getElementById("workboard") &&
       (document.getElementById("workboard").innerHTML = c);
 }
